@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Suro's Art Gallery</title>
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+        <div class="nav-wrapper">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Order now</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="image-holder">
+            <img src= "./images/3.jpg" alt="background image" class="background-img" width="100%">
+            <h1 id="caption-1">Shopping done online</h1>
+        </div>
+        <h1 id="pop-cat">POPULAR CATEGORIES</h1>
+        <hr width="1300">
+        <div class="featured-wrapper">
+            <!--these are categories-->
+            <div class="product-container">
+                <p class="cat-text">Sketch products</p>
+                <img src="./images/5.jpg" alt="products" width="100">
+                <div class="btn-container">
+                    <button class="view-more-button" type="button" name="button">VIEW MORE</button>
+                </div>
+            </div>
+            
+            <div class="product-container">
+                <p class="cat-text">Drawing products</p>
+                <img src="./images/2.jpg" alt="products" width="100">
+                <div class="btn-container">
+                    <button class="view-more-button" type="button" name="button">VIEW MORE</button>
+                </div>
+            </div>
+            
+            <div class="product-container">
+                <p class="cat-text">Portraits products</p>
+                <img src="./images/4.jpg" alt="products" width="100">
+                <div class="btn-container">
+                    <button class="view-more-button" type="button" name="button">VIEW MORE</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="social-media-containers" background-color="#00000">
+            <div id="facebook-icon-container">
+                <img src="./images/icon-facebook.png" alt="facebook icon">
+            </div>
+            <div id="twitter-icon-container">
+                <img src="./images/icon-twitter.png" alt="twitter icon">
+            </div>
+            <div id="instagram-icon-container">
+                <img src="./images/icon-instagram.png" alt="instagram icon">
+            </div>       
+        </div>
+        <br>
+        <!--this is holder for the form-->
+        <div class="form-container">
+            <div class="form-head-container">
+                <img id="email-icon" src="./images/email-icon.png">
+                <p id="contact-us-label">Contact us</p>
+            </div>
+            <form action="c">
+                <label class="form-item" for="fname">First Name </label>
+                <input type="text" id="fname" name="firstname" placeholder="your name">
+           
+            <br>
+           
+                <label class="form-item" for="lname">Last Name </label>
+                <input type="text" id="lname" name="lastname" placeholder="your surname">
+            <br>           
+                <label class="form-item" for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="your subject"></textarea>
+                <input type="submit" id="submit-btn" value="Submit">
+            </form>
+            <br>
+        </div>         
+	</body>
+</html>
